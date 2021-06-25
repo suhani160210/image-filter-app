@@ -1,7 +1,7 @@
 noseX=0;
 noseY=0;
 function preload(){
-clown_nose=loadImage("https://i.postimg.cc/Rqrg7T1M/3255158-middle.png");
+clown_nose=loadImage("https://i.postimg.cc/j5gxcx7k/red-nose.png");
 }
 function setup(){
     canvas=createCanvas(400,400);
@@ -29,7 +29,6 @@ function draw(){
 image(video,0,0,400,400);
 fill(255,0,0);
 stroke(255,0,0);
-circle(noseX,noseY,20);
 image(clown_nose,noseX,noseY,30,30);
 }
 function take_snapshot(){
